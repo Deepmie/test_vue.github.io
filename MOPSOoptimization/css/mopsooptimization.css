@@ -1,0 +1,209 @@
+body,a{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color: rgb(0, 0, 0);
+}
+a{
+	text-decoration: none;
+	color:rgb(255, 255, 255);
+}
+/*=========header==============*/
+.header{
+	/* border:1px solid red; */
+	position: fixed;
+	top:0px;
+	width:3000px;
+	height:70px;
+	background-color: rgb(238, 238, 238);
+	padding:0px;
+	margin:0px;
+}
+.header .header-img{
+	/* border:1px solid red; */
+	margin-left:10px;
+	vertical-align: middle;
+	height: 70px;
+	display: inline-block;
+	line-height: 70px;
+	position: relative;
+}
+.header .header-img img{
+	vertical-align: middle;
+}
+.header .header-title-list{
+	/* border:1px solid red; */
+	line-height: 70px;
+	font-size:35px;
+	vertical-align: middle;
+	margin:5px;
+	padding:0px;
+}
+.header .header-title{
+	/* border:1px solid blue; */
+	font-family:"Times New Roman";
+	font-weight:bold;
+	color:darkblue;
+}
+.header #shadow{
+	color:deepskyblue;
+	margin-left:-162px;
+}
+.header .header-son-title-list{
+	/* border:1px solid beige; */
+	line-height: 70px;
+	vertical-align: middle;
+	font-size:18px;
+	margin-left:550px;
+}
+.header .header-son-title-list .header-son-title{
+	/* border:1px solid red; */
+	padding-left:10px;
+	padding-right:10px;
+	margin-left:35px;
+	font-style:italic;
+	font-weight:bold;
+}
+.header .header-son-title-list .header-son-title:hover{
+	font-size:28px;
+	border-radius: 20px;
+	background-color: lightblue;
+	color:royalblue;
+}
+.header .header-son-title-list .header-son-title:active{
+	color:darkred;
+	
+}
+/*========================*/
+.content1{
+	width:1000px;
+	height:535px;
+	margin:90px auto 0px;
+	text-align: center;
+    font-size:20px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+	color:white;
+}
+.content1 #result{
+    /* border: 1px solid red; */
+    width: 200px;
+    margin-left:544px;
+    margin-bottom: -20px;
+    margin-top: 20px;
+}
+.content1 #result #shadowed{
+    background-color: rgb(165, 0, 0);
+    width: 120px;
+    height: 2px;
+    position: relative;
+    top:4px;
+    left:40px;
+}
+.content1 h1{
+    /* border: 1px solid red; */
+    position: relative;
+    top:20px;
+}
+.content1 #n-iter{
+    /* border: 1px solid red; */
+    /* border-radius: 20px; */
+    margin-left:40px;
+    position: relative;
+    width: 220px;
+    background-color: rgba(20, 34, 31, 0.679);
+    padding:10px;
+}
+.content1 #n-iter input{
+    width:80px;
+}
+.content1 ul{
+    /* border: 1px solid red; */
+    list-style: none;
+    width:720px;
+}
+.content1 ul li div span{
+    /* border: 1px solid red; */
+    display: inline-block;
+    width:300px;
+    margin-top:10px;
+}
+.content1 ul li div .block{
+    /* border: 1px solid red; */
+    display: inline-block;
+    width:87px;
+    height: 10px;
+}
+.content1 ul li div input{
+    width: 25px;
+    font-family: 'Times New Roman';
+    font-size:15px;
+    text-align: center;
+}
+.content1 ul li div .show-input{
+    /* border: 1px solid red; */
+    margin-left:100px;
+}
+.content1 #button{
+    position: relative;
+    top:40px;
+    background-color: rgba(255, 255, 255, 0.133);
+    /* border: 1px solid red; */
+}
+.content1 div button{
+    width:100px;
+    height: 40px;
+    font-size:20px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    border: 0px solid rgb(66, 205, 218);
+    background-color: rgba(255, 255, 255, 0.126);
+    margin-top:0px;
+    margin-left:600px;
+    color:rgb(0, 0, 0)
+    /* border-radius: 20px; */
+}
+.content1 div button:hover{
+    background-color: rgb(95, 224, 236);
+}
+.content1 div button:active{
+    color:rgb(204, 231, 255);
+    /* background-color: aliceblue; */
+}
+/*========================*/
+/* .content2  */
+/*======================= */
+.content3{
+	width:1525px;
+	height:180px;
+	background-color: darkslategray;
+	margin:100px auto 0px;
+	text-align: center;
+	line-height: 30px;
+	color:lightseagreen;
+	padding-top:50px;
+}
+.content3 .tile-word2{
+	color:lightseagreen;
+}
+/*======================= */
+.register{
+	width:250px;
+	height:300px;
+	background-color: aliceblue;
+	position:fixed;
+	top:90px;
+	left:20px;
+}
+/*======================= */
+.talking{
+	width:250px;
+	height:300px;
+	background-color: aliceblue;
+	position:fixed;
+	top:410px;
+	left:20px;
+}
+/*======================= */
+/*======================= */

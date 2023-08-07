@@ -1,0 +1,117 @@
+body,a{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color: rgb(0, 0, 0);
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+/*=========header==============*/
+.header{
+	/* border:1px solid red; */
+	position: fixed;
+	top:0px;
+	width:3000px;
+	height:70px;
+	background-color: rgb(238, 238, 238);
+	padding:0px;
+	margin:0px;
+}
+.header .header-img{
+	/* border:1px solid red; */
+	margin-left:10px;
+	vertical-align: middle;
+	height: 70px;
+	display: inline-block;
+	line-height: 70px;
+	position: relative;
+}
+.header .header-img img{
+	vertical-align: middle;
+}
+.header .header-title-list{
+	/* border:1px solid red; */
+	line-height: 70px;
+	font-size:35px;
+	vertical-align: middle;
+	margin:5px;
+	padding:0px;
+}
+.header .header-title{
+	/* border:1px solid blue; */
+	font-family:"Times New Roman";
+	font-weight:bold;
+	color:darkblue;
+}
+.header #shadow{
+	color:deepskyblue;
+	margin-left:-162px;
+}
+.header .header-son-title-list{
+	/* border:1px solid beige; */
+	line-height: 70px;
+	vertical-align: middle;
+	font-size:18px;
+	margin-left:550px;
+}
+.header .header-son-title-list .header-son-title{
+	/* border:1px solid red; */
+	padding-left:10px;
+	padding-right:10px;
+	margin-left:35px;
+	font-style:italic;
+	font-weight:bold;
+}
+.header .header-son-title-list .header-son-title:hover{
+	font-size:28px;
+	border-radius: 20px;
+	background-color: lightblue;
+	color:royalblue;
+}
+.header .header-son-title-list .header-son-title:active{
+	color:darkred;
+	
+}
+/*========================*/
+.content1{
+	width:1000px;
+	height:597px;
+	/* background-color: gray; */
+	margin:90px auto 0px;
+	text-align: center;
+	font-size: 0px;
+	position: relative;
+	top:0px;
+	z-index:  -1;
+	color:white;
+}
+.content1 span{
+	display: inline-block;
+	width: 500px;
+	height:400px;
+	/* border: 1px solid red; */
+	margin:0px 10px 0px 10px;
+	position: relative;
+	top:100px;
+	vertical-align: middle;
+}
+.content1 span p{
+	font-size:25px;
+	font-weight:bold;
+	font-family:'Times New Roman';
+}
+.content1 span #pop{
+	background-color: rgb(249, 255, 255);
+	width: 200px;
+	height: 30px;
+	border-radius: 10px;
+	font-size: 15px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight:bold;
+}
+.content1 span img{
+	margin-bottom: 20px;
+}
