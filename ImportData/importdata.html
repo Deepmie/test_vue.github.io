@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>AI-AFPH | Import Data</title>
+		<link rel="stylesheet" type="text/css" href="css/importdatacss.css">
+		<link href="https://cdn.bootcdn.net/ajax/libs/tabulator-tables/5.4.4/css/tabulator.min.css" rel="stylesheet">
+		<script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.4.2/echarts.min.js"></script>
+		<script src="https://cdn.bootcdn.net/ajax/libs/tabulator-tables/5.4.4/js/tabulator.min.js"></script>
+	</head>
+	<body>
+		<div class="header" id="header">
+			<a href="../主ui/main.html"><span class="header-img"><img src="img/节能.svg" width=50px height=50px /></span>
+			<span class="header-title-list">
+				<span class="header-title">AI-AFPH</span>
+				<span class="header-title" id="shadow">AI-AFPH</span>
+			</span></a>
+			<span class="header-son-title-list">
+				<a href="../主ui/main.html" target="_blank"><span class="header-son-title">Home</span></a>
+				<a href="../ImportData/importdata.html" target="_blank"><span class="header-son-title">Import Data</span></a>
+				<a href="../SetParameters/setparameters.html" target="_blank"><span class="header-son-title">Set Parameters</span></a>
+				<a href="../CheckResult/checkresult.html" target="_blank"><span class="header-son-title">Check Result</span></a>
+			</span>
+		</div>
+		<!-- ======================================= -->
+		<div class="content1" id="content1">
+			<!-- <div class="input-style"><input type="file" id="readexcel" /><span class="input-text">Click upload data table<span></div> -->
+			<!-- <div class="input-style" id="delete"><span class="input-text2">Delete<span></div> -->
+			<button class="btn">Click upload data table</button><button class="btn">Delete</button>
+				<div id="showExcel">
+				You can upload a standard form with headers that should contain:<br />
+				<ur>
+					<li>Temperature</li>
+					<li>Water Flow Rate</li>
+					<li>Volumetric Flow Rate CH4</li>
+					<li>Volumetric Flow Rate CO2</li>
+					<li>Pressure</li>
+					<li>Conversion Rate CH4</li>
+					<li>Hydrogen Yield</li>
+				</ur>
+			</div>
+			<div id="showJS"><img src="./img/cd.jpg" wdith="1000px"></div>
+			<div id="showBox1-Text"></div>
+			<div id="showBox1"></div>
+			<div id="showBox2-Text"></div>
+			<div id="showBox2"></div>
+			<div id="showMatrix"></div>
+			<!-- <div></div> -->
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/importdatajs.js"></script>
